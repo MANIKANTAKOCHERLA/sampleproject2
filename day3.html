@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex div{
+            border: 2px solid black;
+            padding: 5%;
+            margin: 5%;
+            font-size: 120px;
+            background-color:black;
+            box-shadow: 2px 5px 6px brown;
+            text-shadow: 2px 4px 6px coral;
+        }
+        .flex{
+            display: flex;
+            flex-direction: row;
+            /* row|| row reverse|| column|| column reverse*/
+            justify-content: space-between;
+            /* center,flex end,flex start,space around,space between*/
+            flex-wrap: wrap;
+            /* wrap,wrap reverse*/
+            align-items: flex-start;
+            align-content: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div>m</div>
+        <div>a</div>
+        <div>n</div>
+        <div>i</div>
+        <div>m</div>
+        <div>a</div>
+        <div>n</div>
+        <div>i</div>
+        <div>m</div>
+        <div>a</div>
+        <div>n</div>
+        <div>i</div>
+    </div>
+</body>
+</html>
